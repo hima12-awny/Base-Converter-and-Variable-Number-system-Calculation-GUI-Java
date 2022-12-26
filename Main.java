@@ -1,10 +1,6 @@
-package NumbersSystems;
-
-
 import static java.lang.System.out;
 
 public class Main  extends Calc{
-
 
     public static void main(String[] args) throws Exception {
 
