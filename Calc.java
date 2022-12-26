@@ -1,7 +1,4 @@
-package NumbersSystems;
-
 public class Calc extends Convert {
-
 
     public static String Clc(String num1, int b1, String num2, int b2, String ope, int target_base) throws Exception {
 
@@ -37,7 +34,6 @@ public class Calc extends Convert {
         else
             return "-"+result_nBase;
     }
-
 
     public static void Calculator() throws Exception {
         System.out.println("\n----------Calculate----------");
