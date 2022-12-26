@@ -1,5 +1,3 @@
-package NumbersSystems;
-
 import java.util.Scanner;
 
 import static java.lang.System.out;
@@ -47,7 +45,6 @@ public class Convert {
 
     public static String decimalToBase(Boolean show_this_func, Double num, int base) {
 
-
         if (show_this_func) {
             num = Double.parseDouble(input("\nEnter number in decimal system: "));
 
@@ -58,7 +55,6 @@ public class Convert {
                 return "0";
             }
         }
-
 
         StringBuilder res = decimalToBase_int(num.intValue(), base);
         if (num != num.intValue()) {
