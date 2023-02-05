@@ -20,12 +20,14 @@ In the First part Of the Converter Section, There are two checkboxes to choose w
 # Handled some Exceptions
 Like:
 Like:
-* "BigRemainder" to avoid the occurrence of a non-letter value in the result.
-* "Small Base" when the Base is smaller than or equal to any digit of the input Number.
-* "Invalid Numbers!" if any input when:  
+* "BigRemainder" : to avoid the occurrence of a non-letter value in the result.
+* "Small Base" : when the Base is smaller than or equal to any digit of the input Number.
+* "0-9 for decimal": when you type any (A-Z) in Number filed when you convert from decimal.
+* "Invalid Base" : The Base is less than or equal to 1, or if it is a floats number.
+* "Misformatted/Empty" if any input when:  
    - Empty.
    - Invalid Format: not include 0-9 or A-Z only in the number.
-	- The Base is less than or equal to 1, or if it is a floats number.
+   - Invalid Format : in base must be Integer value.
 
 ![screenShoot 2](https://user-images.githubusercontent.com/67521813/215410177-5c16efa8-8433-4971-9c70-3e08668d3607.png)
 
