@@ -1,6 +1,6 @@
 # Base Converter and-Variable Number system Calculation
 
-This Programas was my way of practising Courses in OOP and Logic Design at my college. <br>
+This Programas was my way of practising Courses (OOP, Logic Design) at my college. <br>
 It includes:
 
 1. Converter
