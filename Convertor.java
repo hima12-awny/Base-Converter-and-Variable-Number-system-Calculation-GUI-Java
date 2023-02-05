@@ -1,5 +1,5 @@
 package NumbersSystems;
-
+import java.math.BigDecimal;
 public class Convertor {
     // Convertor Class convert number with specific base to another number with specific another base.
 
@@ -166,8 +166,8 @@ public class Convertor {
         //  from_base   : source base of the number
         //  to_base     : destination base of the number
 
-        Double decimal_num = BaseToDecimal(num, from_base);
-        return this.decimalToBase(decimal_num.toString(), to_base);
+        String decimal_num = BigDecimal.valueOf(BaseToDecimal(num, from_base)).toString();
+        return this.decimalToBase(decimal_num, to_base);
     }
 
     // NOTE : all methods throws Exception with a specific massage to represent a specific Problem.
