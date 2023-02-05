@@ -9,6 +9,7 @@ It includes:
 
 2. Calculator
    - Get two Numbers with their Bases and do simple Calculations even if their Bases are Not the same.
+   - Operations  available  (+, -, *, /) you can choose it from ComboBox ("+" is default).
    - Also, you can choose the Base of the result.
 
 # GUI in Examples
